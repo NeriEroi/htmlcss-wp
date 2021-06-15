@@ -120,7 +120,7 @@ main .second-section .title p {
 
 .paragraph {
     width: calc(100% / 5);
-    background-color: #82BFFA;
+    /* background-color: #82BFFA; */
 }
 
 /* main .second-section .paragraph .img-container {
@@ -153,7 +153,7 @@ main .second-section .paragraph .img-container img {
 
 .paragraph-center {
     width: calc((100% / 5)*3 - 26px);
-    background-color: #82BFFA;
+    /* background-color: #82BFFA; */
     margin: 0 13px 16px 13px;
 }
 
@@ -192,6 +192,14 @@ main .second-section .paragraph-center .img-container img {
     bottom: 0;
     right: 0;
     background-color: rgba(112, 106, 106, 0.3);
+}
+
+.paragraph h3, .paragraph-center h3 {
+    line-height: 45px;
+}
+
+.paragraph p, .paragraph-center p {
+    color: rgba(112, 106, 106, 0.904);;
 }
 
 .paragraph,
