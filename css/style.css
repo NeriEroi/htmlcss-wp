@@ -5,13 +5,13 @@
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
     
 
 .container {
-    width: 60%;
+    width: 70%;
     margin: 15px auto;
 }
 
@@ -40,12 +40,16 @@ nav ul li {
     color: rgba(112, 106, 106, 0.904);
 }
 
+nav ul li a {
+    text-decoration: none;
+}
+
 /* / header attributes  */
 
 
 
 main {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
