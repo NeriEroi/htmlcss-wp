@@ -7,7 +7,6 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
-    color: white;
 }
     
 
@@ -18,10 +17,6 @@ body {
 
 
 /* header attributes  */
-
-header {
-    /* background-color: #E579E6; */
-}
 
 .logo {
     height: 70px;
@@ -52,9 +47,52 @@ main {
 }
 
 
+
+/* main first section attributes */
+
 main .first-section {
-    background-color: #E1D67A;
+    position: relative;
 }
+
+main .first-section .banner-container {
+    width: 100%;
+    position: relative;
+}
+
+main .first-section .banner-container .layover {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(112, 106, 106, 0.3);
+}
+
+main .first-section .banner-container img {
+    width: 100%;
+    height: 490px;
+    object-fit: cover;
+}
+
+main .first-section .banner-text {
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+main .first-section .banner-text h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+main .first-section .banner-text p {
+    font-size: 20px;
+}
+
+/* main / first section attributes */
+
 
 
 /* main second section attributes */
