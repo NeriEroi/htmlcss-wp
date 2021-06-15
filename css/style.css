@@ -16,6 +16,7 @@ body {
 }
 
 
+
 /* header attributes  */
 
 .logo {
@@ -40,6 +41,7 @@ nav ul li {
 }
 
 /* / header attributes  */
+
 
 
 main {
@@ -98,16 +100,22 @@ main .first-section .banner-text p {
 /* main second section attributes */
 
 main section.second-section {
-    background-color: #0684FC;
+    /* background-color: #0684FC; */
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .second-section .main {
+    margin-top: 16px;
 }
 
 main .second-section .title {
-    background-color: #82BFFA;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
 }
 
-.main {
-    margin-top: 16px;
+main .second-section .title p {
+    color: rgba(112, 106, 106, 0.904);
 }
 
 .paragraph {
