@@ -67,8 +67,9 @@ main {
 
 .first-section .banner-container img {
     width: 100%;
-    height: 490px;
+    height: 560px;
     object-fit: cover;
+    display: flex;
 }
 
 .first-section .banner-container .layover {
@@ -78,13 +79,13 @@ main {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(112, 106, 106, 0.4);
+    background-color: rgba(112, 106, 106, 0.4);  
 }
 
 .first-section .banner-text {
     color: white;
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
     left: 50px;
 }
 
@@ -130,6 +131,7 @@ main {
     width: 100%;
     height: 230px;
     object-fit: cover;
+    display: flex;
 }
 
 .paragraph-center {
